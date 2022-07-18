@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#profile{
+    border-radius: 25px;
+    padding: 2rem;
+}
+
+.profile-light{
+    background-color: white;
+    color: black;
+}
+
+.profile-dark{
+    background-color: black;
+    color: white;
+}
+
+.subtitle{
+    color: gray;
+}
+
+#profile-bg {
+    width: 100%;
+    height: 16rem;
+    background-color: greenyellow;
+
+}
+
+#profile-img{
+    width: 16rem;
+    height: 16rem;
+    border-radius: 50%;
+    border: 0.4rem solid black; /*Dark theme colors here */
+    margin: 8rem 0 0 3rem;
+}
+
+#image-buffer{
+    margin-bottom: 6rem;
+}
+#edit-profile{
+    border: 0.2rem solid black;
+    border-radius: 25px;
+}
